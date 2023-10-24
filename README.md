@@ -1,5 +1,10 @@
 # Lecture 01
 
+## Important Links
+
+- [VS Code](https://code.visualstudio.com/download)
+- [Bootstrap 5](https://getbootstrap.com/)
+
 ## What is Bootstrap 5?
 
 - Component Library, CSS, JavaScript for making mobile-first, responsive website.
