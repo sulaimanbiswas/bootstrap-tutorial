@@ -3,7 +3,7 @@
 ## Important Links
 
 - [VS Code](https://code.visualstudio.com/download)
-- [Bootstrap 5](https://getbootstrap.com/)
+- [Bootstrap 5](https://getbootstrap.com/docs/5.3/getting-started/download/)
 
 ## What is Bootstrap 5?
 
