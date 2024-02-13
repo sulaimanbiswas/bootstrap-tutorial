@@ -3,123 +3,71 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Responsive Layout - Lecture 07</title>
+    <title>Bootstrap Table - Lecture 09</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
     />
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <ul class="list-group">
-            <ol class="list-group list-group-numbered">
-              <li
-                class="list-group-item d-flex justify-content-between align-items-start"
-              >
-                <div class="ms-2 me-auto">
-                  <div class="fw-bold">Friend Request</div>
-                </div>
-                <span class="badge bg-primary rounded-pill">14</span>
-              </li>
-              <li
-                class="list-group-item d-flex justify-content-between align-items-start"
-              >
-                <div class="ms-2 me-auto">
-                  <div class="fw-bold">Message</div>
-                </div>
-                <span class="badge bg-primary rounded-pill">14</span>
-              </li>
-              <li
-                class="list-group-item d-flex justify-content-between align-items-start"
-              >
-                <div class="ms-2 me-auto">
-                  <div class="fw-bold">Notification</div>
-                </div>
-                <span class="badge bg-primary rounded-pill">14</span>
-              </li>
-            </ol>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <ul class="list-group">
-            <li class="list-group-item disabled">An item</li>
-            <a
-              href="#"
-              class="list-group-item list-group-item-action active"
-              aria-current="true"
-            >
-              The current link item
-            </a>
-            <li class="list-group-item btn">A third item</li>
-            <li class="list-group-item">A fourth item</li>
-            <li class="list-group-item active">And a fifth one</li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <ol class="list-group list-group-numbered">
-            <li class="list-group-item active">An item</li>
-            <li class="list-group-item list-group-item-success">
-              A second item
-            </li>
-            <li class="list-group-item">A third item</li>
-            <li class="list-group-item">A fourth item</li>
-            <li class="list-group-item">And a fifth one</li>
-            <button
-              type="button"
-              class="list-group-item list-group-item-action active"
-              aria-current="true"
-            >
-              The current button
-            </button>
-          </ol>
-        </div>
-        <div class="col-md-4">
-          <div class="list-group">
-            <a
-              href="#"
-              class="list-group-item list-group-item-action active"
-              aria-current="true"
-            >
-              <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">List group item heading</h5>
-                <small>3 days ago</small>
-              </div>
-              <p class="mb-1">Some placeholder content in a paragraph.</p>
-              <small>And some small print.</small>
-            </a>
-            <a href="#" class="list-group-item list-group-item-action">
-              <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">List group item heading</h5>
-                <small class="text-body-secondary">3 days ago</small>
-              </div>
-              <p class="mb-1">Some placeholder content in a paragraph.</p>
-              <small class="text-body-secondary"
-                >And some muted small print.</small
-              >
-            </a>
-            <a href="#" class="list-group-item list-group-item-action">
-              <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">List group item heading</h5>
-                <small class="text-body-secondary">3 days ago</small>
-              </div>
-              <p class="mb-1">Some placeholder content in a paragraph.</p>
-              <small class="text-body-secondary"
-                >And some muted small print.</small
-              >
-            </a>
-          </div>
-        </div>
-      </div>
+    <div class="container p-3 border">
+      <table
+        class="table table-hover table-borderless table-sm table-responsive-sm"
+      >
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob Jacob Jacob Jacob Jacob Jacob Jacob Jacob Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
